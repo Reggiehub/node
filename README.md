@@ -61,7 +61,7 @@ sudo docker run hello-world
 docker ps
 ```
 
-It should returns an empty container list without having any error. Otherwise, restart your machine if there are errors.
+It should return an empty container list without having any errors. Otherwise, restart your machine if there are errors.
 
 ### Clone the Repository
 
@@ -113,7 +113,7 @@ Open `.env` with your editor of choice
 docker compose up -d --build
 ```
 
-Will start the node in a detatched shell (`-d`), meaning the node will continue to run in the background. We recommended to add `--build` to make sure that latest changes are being applied.
+Will start the node in a detached shell (`-d`), meaning the node will continue to run in the background. We recommended to add `--build` to make sure that latest changes are being applied.
 
 ### View logs
 
